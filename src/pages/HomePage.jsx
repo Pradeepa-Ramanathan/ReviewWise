@@ -14,8 +14,17 @@ import FlipkartLogo from '../assets/flipkart 1.png';
 
 import './Homepage.css';
 import TestimonialsCarousel from './testimonals.jsx';
+import { useNavigate } from 'react-router-dom';
+
+
 
 const HomePage = () => {
+  const navigate = useNavigate();
+
+const handleCheckNow = () => {
+  navigate('/analyze');
+};
+
   return (
     <div>
       {/* Hero Section */}
@@ -39,6 +48,7 @@ const HomePage = () => {
           </p>
           <button
             className="btn btn-lg mt-4"
+            onClick={handleCheckNow}
             style={{
               backgroundColor: '#057DCD',
               color: 'white',

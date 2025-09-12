@@ -56,7 +56,7 @@ const Navbar = () => {
            <ul className="navbar-nav d-flex flex-row gap-5 mb-2 mb-lg-0">
   <li className="nav-item"><Link className="nav-link text-dark" style={robotoStyle} to="/">Home</Link></li>
   <li className="nav-item"><Link className="nav-link text-dark" style={robotoStyle} to="/">About Us</Link></li>
-  <li className="nav-item"><Link className="nav-link text-dark" style={robotoStyle} to="/">Get Review</Link></li>
+  <li className="nav-item"><Link className="nav-link text-dark" style={robotoStyle} to="/analyze">Get Review</Link></li>
   <li className="nav-item"><Link className="nav-link text-dark" style={robotoStyle} to="/contact">Contact Us</Link></li>
 
 
