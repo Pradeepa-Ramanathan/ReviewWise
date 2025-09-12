@@ -1,0 +1,96 @@
+/* General Page Styles */
+body {
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: #ffffff;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: #0f1724;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  color: #0b1220;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 0 0 10px;
+  color: #111213;
+}
+
+/* Paragraphs */
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #0a0a0a;
+  line-height: 1.5;
+  max-width: 800px;
+}
+
+/* Images */
+img {
+  max-width: 180px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+/* Container for Privacy Page */
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+}
+
+/* Card Styles */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card.gray {
+  background: #a69e9e;
+}
+
+.card.blue {
+  background: #1d8bd4;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+li {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+/* Date Label */
+.date {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Page Not Found Styles */
+.page-not-found {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
