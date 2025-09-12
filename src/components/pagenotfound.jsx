@@ -5,7 +5,7 @@ const PageNotFound = () => {
   return (
     <div className="page-not-found">
       <br /><br /><br /><br />
-      <img src="images/pagenotfound.png" alt="404 illustration" />
+      <img src="assests/pagenotfound.png" alt="404 illustration" />
       <h1>Page Not Found</h1>
       <p>
         Oops! The product you're looking for doesn't exist or has been moved.
@@ -16,3 +16,4 @@ const PageNotFound = () => {
 };
 
 export default PageNotFound;
+
