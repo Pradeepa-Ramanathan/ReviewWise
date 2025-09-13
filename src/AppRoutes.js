@@ -1,10 +1,10 @@
 // src/AppRoutes.js
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Dashboard from './pages/Dashboard';
-import Profile from './pages/Profile';
-import SettingsPage from './pages/SettingsPage';
-import NotificationsPage from './pages/NotificationsPage';
+import Dashboard from './components/Dashboard';
+import Profile from './components/Profile';
+import SettingsPage from './components/SettingsPage';
+import NotificationsPage from './components/NotificationsPage';
 
 export default function AppRoutes() {
   return (
