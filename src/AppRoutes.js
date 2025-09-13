@@ -1,13 +1,12 @@
 // src/AppRoutes.js
-import React from "react";
-import { Routes, Route } from "react-router-dom";
-import Dashboard from "./pages/Dashboard";
-import Profile from "./pages/Profile";
-import SettingsPage from "./pages/SettingsPage";
-import NotificationsPage from "./pages/NotificationsPage";
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Dashboard from './pages/Dashboard';
+import Profile from './pages/Profile';
+import SettingsPage from './pages/SettingsPage';
+import NotificationsPage from './pages/NotificationsPage';
 
-// Manage all routes here
-const AppRoutes = () => {
+export default function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<Dashboard />} />
@@ -19,6 +18,4 @@ const AppRoutes = () => {
       <Route path="/products" element={<Dashboard />} />
     </Routes>
   );
-};
-
-export default AppRoutes;
+}
